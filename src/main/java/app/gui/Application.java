@@ -21,12 +21,7 @@ import org.json.JSONException;
 import api.MongoGradeDataBase;
 import app.Config;
 import entity.Grade;
-import usecase.FormTeamUseCase;
-import usecase.GetAverageGradeUseCase;
-import usecase.GetGradeUseCase;
-import usecase.JoinTeamUseCase;
-import usecase.LeaveTeamUseCase;
-import usecase.LogGradeUseCase;
+import usecase.*;
 
 /**
  * GUI class to run the GUI for the Grade App.
