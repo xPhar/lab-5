@@ -26,6 +26,14 @@ public class Config {
     }
 
     /**
+     * Get the GetTopGradeUseCase object.
+     * @return GetTopGradeUseCase object.
+     */
+    public GetTopGradeUseCase getTopGradeUseCase() {
+        return new GetTopGradeUseCase(gradeDataBase);
+    }
+
+    /**
      * Get the LogGradeUseCase object.
      * @return LogGradeUseCase object.
      */
